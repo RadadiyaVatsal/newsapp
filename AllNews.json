@@ -1,0 +1,340 @@
+"articles": [
+    {
+    "source": {
+    "id": null,
+    "name": "[Removed]"
+    },
+    "author": null,
+    "title": "[Removed]",
+    "description": "[Removed]",
+    "url": "https://removed.com",
+    "urlToImage": null,
+    "publishedAt": "1970-01-01T00:00:00Z",
+    "content": "[Removed]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Yahoo Entertainment"
+    },
+    "author": "Mat Smith",
+    "title": "The Morning After: Drones that can charge on power lines",
+    "description": "Battery life always limits a drone’s ability to perform tasks and get anywhere. So why not let it slurp from nearby power lines? (Well, there are reasons.) \nResearchers at the University of Southern Denmark attached a gripper system to a Tarot 650 Sport drone…",
+    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6608d6ad-7244-4a42-9aa6-6816279be226",
+    "urlToImage": null,
+    "publishedAt": "2024-04-10T11:15:17Z",
+    "content": "If you click 'Accept all', we and our partners (including 239 who are part of the IAB Transparency &amp; Consent Framework) will also store and/or access information on a device (in other words, use … [+678 chars]"
+    },
+    {
+    "source": {
+    "id": "the-verge",
+    "name": "The Verge"
+    },
+    "author": "Emma Roth",
+    "title": "Apple Store employees in New Jersey are trying to unionize",
+    "description": "An Apple retail store location in Short Hills, New Jersey, has filed a petition to unionize. The 104 workers are represented by the Communications Workers of America.",
+    "url": "https://www.theverge.com/2024/4/10/24126657/apple-store-employees-new-jersey-unionize",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/5ctJfP3Z7AlcBki6nfIIJYVNUFg=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24401977/STK071_ACastro_apple_0001.jpg",
+    "publishedAt": "2024-04-10T21:32:48Z",
+    "content": "Apple Store employees in New Jersey are trying to unionize\r\nApple Store employees in New Jersey are trying to unionize\r\n / If successful, it would be the fifth Apple Store to form a union.\r\nByEmma Ro… [+2271 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Gizmodo.com"
+    },
+    "author": "Dua Rashid",
+    "title": "How to Force Restart an iPad",
+    "description": "Restarting your iPad is good practice for when it isn’t performing as usual. Giving it a quick reboot helps refresh its RAM and optimizes its performance. But sometimes, your iPad acts up and does not want to cooperate. In such circumstances, you’d have to fo…",
+    "url": "https://gizmodo.com/how-to-force-restart-an-ipad-1851398139",
+    "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/d428901f92b1b445ca5e06e8d58337ed.jpg",
+    "publishedAt": "2024-04-10T11:00:00Z",
+    "content": "Restarting your iPad is good practice for when it isnt performing as usual. Giving it a quick reboot helps refresh its RAM and optimizes its performance. But sometimes, your iPad acts up and does not… [+1381 chars]"
+    },
+    {
+    "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "Apple sparks Palestinian flag emoji controversy",
+    "description": "iPhone users noticed a Palestinian flag emoji is being suggested when users type \"Jerusalem.\"",
+    "url": "https://www.bbc.co.uk/news/technology-68778830",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8765/production/_133116643_gettyimages-1726926287.jpg",
+    "publishedAt": "2024-04-10T15:12:08Z",
+    "content": "Apple has been criticised after the Palestinian flag emoji was automatically suggested to iPhone users who type \"Jerusalem.\"\r\nBoth Israel and the Palestinians hold competing claims to the ancient cit… [+1664 chars]"
+    },
+    {
+    "source": {
+    "id": "ars-technica",
+    "name": "Ars Technica"
+    },
+    "author": "Kevin Purdy",
+    "title": "Fairbuds take the Fairphone’s repairability down to seemingly impossible size",
+    "description": "Swap the batteries, tips, charging case, shell, or even just individual buds.",
+    "url": "https://arstechnica.com/gadgets/2024/04/fairbuds-take-the-fairphones-repairability-down-to-seemingly-impossible-size/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/53644519501_1bf6c9a5be_o-760x380.png",
+    "publishedAt": "2024-04-10T18:06:44Z",
+    "content": "Enlarge/ The Fairbuds and their replaceable components, including the notably hand-friendly, non-soldered batteries.\r\n14\r\nFairphone has spent years showing us that it could do what major phone manufa… [+3474 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Android Central"
+    },
+    "author": "namerah.saud-fatmi@futurenet.com (Namerah Saud Fatmi)",
+    "title": "This Android 15 feature might finally fix my biggest Bluetooth audio pain point",
+    "description": "Android 15 is on the horizon, and I'm banking on Google making audio-sharing accessible to all.",
+    "url": "https://www.androidcentral.com/accessories/audio/im-excited-about-android-15-audio-sharing-feature",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/kWGZ6wr2t9dDGdmZW7pLEP-1200-80.jpg",
+    "publishedAt": "2024-04-10T06:00:38Z",
+    "content": "(Image credit: Android Central)\r\nJoin Namerah Saud Fatmi as she explores the cool, quirky, and sometimes downright odd world of smartphone accessories, gadgets, and other nerdy toys every week.\r\nAndr… [+5644 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Juli Clover",
+    "title": "Apple Store Employees in New Jersey File to Unionize",
+    "description": "Apple employees at the Apple Store in Short Hills, New Jersey have petitioned to unionize, reports Bloomberg. Retail store unionization efforts have died down in recent months after locations in Oklahoma and Maryland successfully unionized in 2022.\n\n\n\n\n\nThere…",
+    "url": "https://www.macrumors.com/2024/04/10/apple-store-new-jersey-union-filing/",
+    "urlToImage": "https://images.macrumors.com/t/RwiSyLz8T4369pZoNQBx-V1G8IE=/2000x/article-new/2024/04/apple-short-hills-new-jersey.jpg",
+    "publishedAt": "2024-04-10T20:32:46Z",
+    "content": "Apple employees at the Apple Store in Short Hills, New Jersey have petitioned to unionize, reports Bloomberg. Retail store unionization efforts have died down in recent months after locations in Okla… [+1811 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Mitchel Broussard",
+    "title": "Apple Watch Series 9 Drops to New Low Price of $295 on Amazon",
+    "description": "Amazon today has discounted the 41mm GPS Apple Watch Series 9 down to $295.20, from $399.00. This price is only available in the (PRODUCT)RED color, and it's a limited time deal at Amazon so be sure to check out the sale before it's fully claimed.\n\n\n\nNote: Ma…",
+    "url": "https://www.macrumors.com/2024/04/10/apple-watch-series-9-295/",
+    "urlToImage": "https://images.macrumors.com/t/WeRzQEpLkS4b6mqCvsBEbebJ-0Q=/2500x/article-new/2024/04/apple-watch-9-red.jpg",
+    "publishedAt": "2024-04-10T14:40:42Z",
+    "content": "Amazon today has discounted the 41mm GPS Apple Watch Series 9 down to $295.20, from $399.00. This price is only available in the (PRODUCT)RED color, and it's a limited time deal at Amazon so be sure … [+709 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Hartley Charlton",
+    "title": "TSMC's Next-Generation Chip Technology for Apple Silicon on Schedule",
+    "description": "Apple chipmaker TSMC is making progress toward manufacturing 2nm and 1.4nm chips that are likely destined for future generations of Apple silicon, DigiTimes reports.\n\n\n\n\n\nThe manufacturing time frames for mass production of 2nm and 1.4nm chips have now appare…",
+    "url": "https://www.macrumors.com/2024/04/10/next-gen-chip-tech-for-apple-silicon-on-schedule/",
+    "urlToImage": "https://images.macrumors.com/t/J46PnqFon6uZq7AZIAThCrBf36g=/2500x/article-new/2024/04/apple-silicon-feature-joeblue.jpg",
+    "publishedAt": "2024-04-10T12:24:11Z",
+    "content": "Apple chipmaker TSMC is making progress toward manufacturing 2nm and 1.4nm chips that are likely destined for future generations of Apple silicon, DigiTimes reports.\r\nThe manufacturing time frames fo… [+2179 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Juli Clover",
+    "title": "Apple Releases Safari Technology Preview 192 With Bug Fixes and Performance Improvements",
+    "description": "Apple today released a new update for Safari Technology Preview, the experimental browser Apple first introduced in March 2016. Apple designed the ‌Safari Technology Preview‌ to test features that may be introduced into future release versions of Safari.\n\n\n\n\n…",
+    "url": "https://www.macrumors.com/2024/04/10/apple-releases-safari-technology-preview-192/",
+    "urlToImage": "https://images.macrumors.com/t/jHD1aGfXq86Ln_kfzTyWIF68vOo=/2368x/article-new/2021/02/Safari-Technology-Preview-Feature.jpg",
+    "publishedAt": "2024-04-10T21:47:20Z",
+    "content": "Apple today released a new update for Safari Technology Preview, the experimental browser Apple first introduced in March 2016. Apple designed the ‌Safari Technology Preview‌ to test features that ma… [+956 chars]"
+    },
+    {
+    "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Matthew Wilson,Zoë Ettinger,Mykenna Maniece",
+    "title": "The most popular tech gadget from the year you were born",
+    "description": "In 1950, the world was introduced to remote controls. By 2010, it had the iPad. Take a look at the most popular gadget in the year you were born.",
+    "url": "https://www.businessinsider.com/most-popular-tech-gadget-year-you-were-born",
+    "urlToImage": "https://i.insider.com/660f0c463f923f7dab04dc6b?width=1200&format=jpeg",
+    "publishedAt": "2024-04-10T18:15:37Z",
+    "content": "Steve Jobs holding the first generation iPhone in 2007.Jon Furniss/Wireimage\r\n<ul>\n<li>Technology has undoubtedly changed how we live our lives.</li>\n<li>Since 1950, there's been a new technological … [+26936 chars]"
+    },
+    {
+    "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Ryan Waniata",
+    "title": "The best AirPods alternatives of 2024",
+    "description": "Apple's AirPods are popular earbuds, but there are several great alternatives that deliver similar performance, features, and designs.",
+    "url": "https://www.businessinsider.com/guides/tech/best-airpods-alternatives",
+    "urlToImage": "https://i.insider.com/6615978d1caec1275a6e4447?width=1200&format=jpeg",
+    "publishedAt": "2024-04-10T20:23:04Z",
+    "content": "When you buy through our links, Business Insider may earn an affiliate commission. Learn moreThe best AirPods alternatives offer many of the same features and performance perks that you get on Apple'… [+20970 chars]"
+    },
+    {
+    "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Isabelle Aron",
+    "title": "I was over-employed and worked other jobs on top of my full-time one. To achieve the American dream, you have to beat the system.",
+    "description": "Overemployed millennial project manager Kendall McGill often \"double dips,\" picking up extra work on contract alongside her full-time job.",
+    "url": "https://www.businessinsider.com/over-employed-double-dip-how-to-work-multiple-jobs-2024-4",
+    "urlToImage": "https://i.insider.com/66165c6b3f923f7dab0633a9?width=1200&format=jpeg",
+    "publishedAt": "2024-04-10T10:17:52Z",
+    "content": "Millennial project manager Kendall McGill said she feels uncomfortable having just one job in the current economy.AndreyPopov/Getty Images\r\n<ul><li>Project manager Kendall McGill started picking up c… [+6265 chars]"
+    },
+    {
+    "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Jyoti Mann",
+    "title": "Nvidia employees are getting richer with a 'special Jensen grant' that boosts their stock awards by 25%",
+    "description": "Nvidia stock has soared in the past year and employees are set to benefit with a big boost to their options following annual performance reviews.",
+    "url": "https://www.businessinsider.com/nvidia-jensen-huang-stock-boost-employees-special-grant-2024-4",
+    "urlToImage": "https://i.insider.com/66164af116bde8d4ead73b88?width=1200&format=jpeg",
+    "publishedAt": "2024-04-10T09:51:41Z",
+    "content": "Nvidia CEO Jensen Huang. Sam Yeh/AFP/Getty Images\r\n<ul><li>Nvidia is increasing employee compensation with a stock grant named after CEO Jensen Huang.</li><li>The \"Jensen special grant\" awards an add… [+2516 chars]"
+    },
+    {
+    "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Tim Paradis",
+    "title": "The race for ever-cooler workplaces is leaving employees the winners",
+    "description": "Startups and big companies are trying to lure workers away from home by offering them unique, unusual places to settle in with their laptops.",
+    "url": "https://www.businessinsider.com/cool-fancy-workspaces-employers-startups-coming-for-bland-offices-2024-4",
+    "urlToImage": "https://i.insider.com/6616b7b71caec1275a6e8cf9?width=1200&format=jpeg",
+    "publishedAt": "2024-04-10T17:02:03Z",
+    "content": "Y Combinator's new San Francisco campus features a production studio.Y Combinator\r\n<ul><li>Startups and small organizations are seeking unusual locations that go beyond coworking spaces.</li><li>Esta… [+5522 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Design-milk.com"
+    },
+    "author": "Gregory Han",
+    "title": "Designer Declutters His Desk by 3D Printing an Homage to the Original Apple Macintosh",
+    "description": "Scott Yu-Jan combines his Mac Studio with an iPad Mini using a 3D-printed case to make a miniature – but considerably more powerful – Macintosh desktop computer.",
+    "url": "https://design-milk.com/designer-declutters-his-desk-by-3d-printing-an-homage-to-the-original-apple-macintosh/",
+    "urlToImage": "https://design-milk.com/images/2024/03/Macintosh-Studio-Scott-Yu-Jan-01.jpg",
+    "publishedAt": "2024-04-10T14:00:35Z",
+    "content": "YouTuber Scott Yu-Jan faced an issue common to anyone harboring an affinity for technology the clutter it brings along with it into our lives… and desk. Being a designer well acquainted with the capa… [+1786 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "ReadWrite"
+    },
+    "author": "Sophie Atkinson",
+    "title": "Small browser companies like DuckDuckGo and Ecosia see user surge in Europe",
+    "description": "Smaller browser companies are starting to grab market share in Europe following the EU legislation that forced Google, Microsoft, and… Continue reading Small browser companies like DuckDuckGo and Ecosia see user surge in Europe\nThe post Small browser companie…",
+    "url": "https://readwrite.com/small-browser-companies-like-duckduckgo-and-ecosia-see-user-surge-in-europe/",
+    "urlToImage": "https://readwrite.com/wp-content/uploads/2024/04/Ya551obwS4CGytApYkvJOw.jpg",
+    "publishedAt": "2024-04-10T10:06:41Z",
+    "content": "Smaller browser companies are starting to grab market share in Europe following the EU legislation that forced Google, Microsoft, and Apple to make it easier for people to switch to rivals.\r\nThe new … [+2007 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hipertextual"
+    },
+    "author": "Quelian Sanz",
+    "title": "El Apple Watch Series 10 podría llegar con sorpresa en el apartado de autonomía",
+    "description": "La última filtración del Apple Watch Series 10 va a provocar una sonrisa en la cara de los fans. El reloj inteligente más vendido del mundo estaría preparado para dar un salto importante en el apartado de autonomía. La compañía afincada en Cupertino quiere da…",
+    "url": "http://hipertextual.com/2024/04/el-apple-watch-series-10-podria-llegar-con-sorpresa-en-el-apartado-de-autonomia",
+    "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2022/10/Apple-Watch-Ultra-03-edited.jpg",
+    "publishedAt": "2024-04-10T10:21:46Z",
+    "content": "La última filtración del Apple Watch Series 10 va a provocar una sonrisa en la cara de los fans. El reloj inteligente más vendido del mundo estaría preparado para dar un salto importante en el aparta… [+2638 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Hackaday"
+    },
+    "author": "Bryan Cockfield",
+    "title": "Wozamp Turns Apple II Into Music Player",
+    "description": "Besides obvious technological advancements, early computers built by Apple differed in a major way from their modern analogs. Rather than relying on planned obsolescence as a business model, computers like …read more",
+    "url": "https://hackaday.com/2024/04/10/wozamp-turns-apple-ii-into-music-player/",
+    "urlToImage": "https://hackaday.com/wp-content/uploads/2024/04/wozamp-main.jpg",
+    "publishedAt": "2024-04-10T08:00:23Z",
+    "content": "Besides obvious technological advancements, early computers built by Apple differed in a major way from their modern analogs. Rather than relying on planned obsolescence as a business model, computer… [+1232 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Xataka.com"
+    },
+    "author": "Javier Marquez",
+    "title": "En su misión por reducir su dependencia de China, Apple ya fabrica uno de cada siete iPhone en India",
+    "description": "No es ningún secreto que China es el mayor exportador de productos electrónicos del mundo. El gigante asiático ha ofrecido durante mucho tiempo una serie de ventajas prácticamente irresistibles para las compañías. Desde la capacidad para sostener vertiginosos…",
+    "url": "https://www.xataka.com/empresas-y-economia/su-mision-reducir-su-dependencia-china-apple-fabrica-uno-cada-siete-iphone-india",
+    "urlToImage": "https://i.blogs.es/82e861/apple-bkc-mumbai-india-opening-day-customer-selfie-iphone-14/840_560.jpeg",
+    "publishedAt": "2024-04-10T23:47:38Z",
+    "content": "No es ningún secreto que China es el mayor exportador de productos electrónicos del mundo. El gigante asiático ha ofrecido durante mucho tiempo una serie de ventajas prácticamente irresistibles para … [+1933 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Xataka.com"
+    },
+    "author": "Herrera Castro",
+    "title": "Se acerca el Día de la Madre y entre estos ocho altavoces Bluetooth está el regalo perfecto para que disfruten de su música favorita",
+    "description": "El próximo domingo 5 de mayo se celebra el Día de la Madre. Y para aquellas que más disfruten de la música y les guste llevarla de una estancia a otra, al jardín o incluso a la playa, un altavoz inalámbrico puede ser el regalo original y útil que no esperan. …",
+    "url": "https://www.xataka.com/seleccion/se-acerca-dia-madre-estos-ocho-altavoces-bluetooth-esta-regalo-perfecto-disfruten-su-musica-favorita",
+    "urlToImage": "https://i.blogs.es/2cc3b0/captura-de-pantalla-2024-04-10-a-las-8.25.34/840_560.png",
+    "publishedAt": "2024-04-10T08:32:01Z",
+    "content": "El próximo domingo 5 de mayo se celebra el Día de la Madre. Y para aquellas que más disfruten de la música y les guste llevarla de una estancia a otra, al jardín o incluso a la playa, un altavoz inal… [+6246 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Xataka.com"
+    },
+    "author": "John Tones",
+    "title": "Nos adentramos en la laberíntica mente de uno de los guionistas clave del indie USA: Jeff Lemire",
+    "description": "Jeff Lemire es uno de los creadores clave del panorama actual del cómic indie. Extremadamente prolífico, su estilo altamente reconocible y su colaboración con otras luminarias de la industria independiente actual lo convierten en perfecto objeto de estudio pa…",
+    "url": "https://www.xataka.com/literatura-comics-y-juegos/nos-adentramos-laberintica-mente-uno-guionistas-clave-indie-usa-jeff-lemire",
+    "urlToImage": "https://i.blogs.es/c3909f/post-2024---laberinto-de-papel/840_560.jpeg",
+    "publishedAt": "2024-04-10T19:00:10Z",
+    "content": "Jeff Lemire es uno de los creadores clave del panorama actual del cómic indie. Extremadamente prolífico, su estilo altamente reconocible y su colaboración con otras luminarias de la industria indepen… [+1777 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Daringfireball.net"
+    },
+    "author": "John Gruber",
+    "title": "From the Annals of Underpromising and Overdelivering: Apple’s Timing for the Mac’s Transition to Apple Silicon",
+    "description": "The future of mass market portable computing involves neither a mouse pointer nor an x86 processor.",
+    "url": "https://daringfireball.net/2015/11/the_ipad_pro",
+    "urlToImage": "https://daringfireball.net/graphics/df-wide-card.png",
+    "publishedAt": "2024-04-10T02:48:28Z",
+    "content": "First impressions last a lifetime, goes the adage. Youre going to have to forget your first impressions of the iPad to understand the iPad Pro.\r\nWhen Apple introduced the original iPad in 2010, it wa… [+25501 chars]"
+    },
+    {
+    "source": {
+    "id": "ign",
+    "name": "IGN"
+    },
+    "author": "Hannah Hoolihan",
+    "title": "Unicorn Overlord is Down to $39.99 And Even More Game Deals",
+    "description": "Select video games are discounted to $39.99 right now at Amazon, Best Buy, and GameStop.",
+    "url": "https://www.ign.com/articles/unicorn-overlord-on-sale-more-game-deals",
+    "urlToImage": "https://assets-prd.ignimgs.com/2024/04/10/game-deals-amazon-bb-gamestop-blogroll-1712756041892.jpg?width=1280",
+    "publishedAt": "2024-04-10T14:09:54Z",
+    "content": "Much like the select Nintendo Switch games on sale at the moment, a few different games have dropped their prices to $39.99 (and even down to $29.99) at various retailers. This deal covers a variety … [+1427 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Digital Trends"
+    },
+    "author": "Tushar Mehta",
+    "title": "Apple accidentally revealed a big iPad Pro display upgrade",
+    "description": "Apple has inadvertantly confirmed major changes coming to the 2024 iPad Pro models, which are expected to launch in May this year.",
+    "url": "https://www.digitaltrends.com/mobile/apple-accidentally-reveal-2024-ipad-pro-oled-display-upgrade/",
+    "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2022/11/apple-ipad-pro-2022-review-7.jpg?resize=1200%2C630&p=1",
+    "publishedAt": "2024-04-10T13:30:08Z",
+    "content": "iPad Pro 2022Joe Maring / Digital Trends\r\nApple is already past its usual upgrade cycle for the iPad Pro after the previous model was released in October 2022. Latest reports hint at an announcement … [+3206 chars]"
+    },
+]
