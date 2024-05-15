@@ -1,25 +1,24 @@
-import './App.css';
+// App.js
 
-import React, { Component } from 'react'
-import News from './components/News';
-import Navbar from './components/Navbar';
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { Component } from 'react';
+import News from './components/News'; // Assuming News component is defined in './components/News.js'
+import Navbar from './components/Navbar'; // Assuming Navbar component is defined in './components/Navbar.js'
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 export default class App extends Component {
   render() {
     return (
       <div>
         <Router>
-          <Navbar/>
+          <Navbar />
           <Routes>
             <Route path="/" element={<News />} />
-            <Route path="/business" element={<News category="business" key="business" />} />
-            <Route path="/entertainment" element={<News category="entertainment" key="entertainment" />} />
-            <Route path="/health" element={<News category="health" key="health"/>} />
-            <Route path="/science" element={<News category="science"key="science" />} />
-            <Route path="/sports" element={<News category="sports" key="sports"/>} />
-            <Route path="/technology" element={<News category="technology" key="technology" />} />
+            <Route path="/business" element={<News category="business" />} />
+            <Route path="/entertainment" element={<News category="entertainment" />} />
+            <Route path="/health" element={<News category="health" />} />
+            <Route path="/science" element={<News category="science" />} />
+            <Route path="/sports" element={<News category="sports" />} />
+            <Route path="/technology" element={<News category="technology" />} />
           </Routes>
         </Router>
       </div>
