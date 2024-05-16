@@ -79,38 +79,44 @@ export default class News extends Component {
                     <Spinner />
                 ) : (
                     <div className="card-container">
-                        <div className="row row-cols-3 mt-0">
-                            {articles.map((element, index) => (
-                                <div className="col" key={index}>
-                                    <NewsItems
-                                        title={element.title.slice(0, 40)}
-                                        description={element.description ? element.description.slice(0, 50) : ''}
-                                        imgUrl={element.urlToImage?element.urlToImage : "https://via.placeholder.com/300x200.png?text=News"}
-                                        readMoreUrl={element.url}
-                                        author={element.author?element.author.slice(0,20):"Unknown"} // if author name is not given
-                                        date={new Date(element.publishedAt).toUTCString()}
-                                    />
+                        {articles.length > 0 ? (
+                            <>
+                                <div className="row row-cols-3 mt-0">
+                                    {articles.map((element, index) => (
+                                        <div className="col" key={index}>
+                                            <NewsItems
+                                                title={element.title.slice(0, 40)}
+                                                description={element.description ? element.description.slice(0, 50) : ''}
+                                                imgUrl={element.urlToImage ? element.urlToImage : "https://via.placeholder.com/300x200.png?text=News"}
+                                                readMoreUrl={element.url}
+                                                author={element.author ? element.author.slice(0, 20) : "Unknown"}
+                                                date={new Date(element.publishedAt).toUTCString()}
+                                            />
+                                        </div>
+                                    ))}
                                 </div>
-                            ))}
-                        </div>
-                        <div className="d-flex justify-content-between m-3">
-                            <button
-                                onClick={this.handlePrev}
-                                disabled={page <= 1}
-                                type="button"
-                                className="btn btn-dark"
-                            >
-                                &larr; Previous
-                            </button>
-                            <button
-                                onClick={this.handleNext}
-                                disabled={page >= totalPage}
-                                type="button"
-                                className="btn btn-dark"
-                            >
-                                Next &rarr;
-                            </button>
-                        </div>
+                                <div className="d-flex justify-content-between m-3">
+                                    <button
+                                        onClick={this.handlePrev}
+                                        disabled={page <= 1}
+                                        type="button"
+                                        className="btn btn-dark"
+                                    >
+                                        &larr; Previous
+                                    </button>
+                                    <button
+                                        onClick={this.handleNext}
+                                        disabled={page >= totalPage}
+                                        type="button"
+                                        className="btn btn-dark"
+                                    >
+                                        Next &rarr;
+                                    </button>
+                                </div>
+                            </>
+                        ) : (
+                            <p>No articles found.</p>
+                        )}
                     </div>
                 )}
             </>
