@@ -9,7 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Router basename='newsapp'>
+        <Router>
           <Navbar />
           <Routes>
             <Route path="/newsapp" element={<News />} />
