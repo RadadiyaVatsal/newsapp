@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import NewsItems from "./NewsItems";
 import Spinner from "./Spinner";
 import PropTypes from 'prop-types';
+import InfiniteScroll from "react-infinite-scroll-component";
 
 export default class News extends Component {
-    
+
     static defaultProps = {
         country: 'in',
         category: 'general',
@@ -20,10 +21,9 @@ export default class News extends Component {
 
         this.state = {
             articles: [],
-            isLoading: false,
             page: 1,
-            totalPage: 1, // Initialize totalPage to 1
-            pageSize: 20,
+            totalNews: 0,
+            pageSize: 10,
         };
     }
 
@@ -35,90 +35,55 @@ export default class News extends Component {
         const { country, category } = this.props;
         const { page, pageSize } = this.state;
         const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=2c42512a4b924a72b68832ab1efd049d&page=${page}&pageSize=${pageSize}`;
-        
-        this.setState({ isLoading: true });
 
         fetch(url)
             .then((response) => response.json())
             .then((data) => {
-                const totalNews = parseInt(data.totalResults, 10);
-                const totalPage = Math.ceil(totalNews / pageSize);
-                this.setState({
-                    articles: data.articles,
-                    totalPage, // Update totalPage
-                    isLoading: false,
-                });
+                this.setState(prevState => ({
+                    articles: prevState.articles.concat(data.articles),
+                    totalNews: data.totalResults,
+                    page: prevState.page + 1,
+                }));
             })
             .catch((error) => {
                 console.error("Error in fetching data", error);
-                this.setState({ isLoading: false });
             });
     }
 
-    handleNext = () => {
-        this.setState(
-            (prevState) => ({ page: prevState.page+1 }), // Ensure page doesn't exceed totalPage
-            this.fetchNews // Fetch news after updating page
-        );
-    }
-
-    handlePrev = () => {
-        this.setState(
-            (prevState) => ({ page: prevState.page-1}), // Ensure page doesn't go below 1
-            this.fetchNews // Fetch news after updating page
-        );
-    }
-
     render() {
-        const { articles, isLoading, page, totalPage } = this.state;
+        const { articles, totalNews } = this.state;
 
         return (
             <>
                 <h1 className="text-center">Top News</h1>
-                {isLoading ? (
-                    <Spinner />
-                ) : (
-                    <div className="card-container">
-                        {articles.length > 0 ? (
-                            <>
-                                <div className="row row-cols-3 mt-0">
-                                    {articles.map((element, index) => (
-                                        <div className="col" key={index}>
-                                            <NewsItems
-                                                title={element.title.slice(0, 40)}
-                                                description={element.description ? element.description.slice(0, 50) : ''}
-                                                imgUrl={element.urlToImage ? element.urlToImage : "https://via.placeholder.com/300x200.png?text=News"}
-                                                readMoreUrl={element.url}
-                                                author={element.author ? element.author.slice(0, 20) : "Unknown"}
-                                                date={new Date(element.publishedAt).toUTCString()}
-                                            />
-                                        </div>
-                                    ))}
+    
+                <InfiniteScroll
+                    dataLength={articles.length}
+                    next={this.fetchNews}
+                    hasMore={articles.length < totalNews}
+                    loader={<Spinner />}
+                    style={{overflow:"hidden"}}
+                    
+                >
+                   
+                        <div className="row row-cols-1 row-cols-md-3 g-4">
+                            {articles.map((element, index) => (
+                                <div className="col" key={index}>
+                                    <NewsItems
+                                        title={element.title ? element.title.slice(0, 40) : "No title"}
+                                        description={element.description ? element.description.slice(0, 50) : 'No description'}
+                                        imgUrl={element.urlToImage ? element.urlToImage : "https://via.placeholder.com/300x200.png?text=News"}
+                                        readMoreUrl={element.url}
+                                        author={element.author ? element.author.slice(0, 20) : "Unknown"}
+                                        date={new Date(element.publishedAt).toUTCString()}
+                                    />
                                 </div>
-                                <div className="d-flex justify-content-between m-3">
-                                    <button
-                                        onClick={this.handlePrev}
-                                        disabled={page <= 1}
-                                        type="button"
-                                        className="btn btn-dark"
-                                    >
-                                        &larr; Previous
-                                    </button>
-                                    <button
-                                        onClick={this.handleNext}
-                                        disabled={page >= totalPage}
-                                        type="button"
-                                        className="btn btn-dark"
-                                    >
-                                        Next &rarr;
-                                    </button>
-                                </div>
-                            </>
-                        ) : (
-                            <p>No articles found.</p>
-                        )}
-                    </div>
-                )}
+                              
+                            ))}
+                        
+                        </div>
+                
+                </InfiniteScroll>
             </>
         );
     }
